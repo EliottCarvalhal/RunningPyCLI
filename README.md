@@ -8,3 +8,5 @@ Simple CLI program that tracks running progress. Connected to a MongoDB to store
 >>cd src
 >>python main.py
 ```
+## TODO
+fix graphs in plot.py
