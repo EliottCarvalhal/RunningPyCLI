@@ -29,7 +29,7 @@ def scatter_plot_runs():
     sorted_paces = [paces[i] for i in sorted_indices]
 
     fig, ax = plt.subplots()
-    ax.plot(sorted_dates, sorted_paces, marker='o', linestyle='-')
+    ax.scatter(sorted_dates, sorted_paces, marker='o', linestyle='-')
 
     # Format x-axis labels as dates
     plt.gcf().autofmt_xdate()
